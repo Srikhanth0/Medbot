@@ -40,7 +40,7 @@ medbot/
 └── package.json         # Root package.json with scripts
 ```
 
-## 🎮 Three.js FBX Viewers
+## Three.js FBX Viewers
 
 ### CDN-based Viewer (`threejs-viewer-cdn/`)
 - **Purpose:** Simple standalone Three.js viewer using CDN imports
@@ -58,7 +58,7 @@ medbot/
   ```
 - **Features:** Animation switching, UI controls, hot reloading
 
-## 🩺 MEDBOT Application (`medbot-app/`)
+## MEDBOT Application (`medbot-app/`)
 
 ### React/TypeScript Health Monitoring App with AI Integration
 - **Purpose:** Complete medical health monitoring application with Gemini AI assistant
@@ -68,10 +68,10 @@ medbot/
   - `src/utils/` - Utility functions (including Gemini API integration)
   - `src/` - Main app files
 - **AI Features:**
-  - 🤖 **Gemini AI Chat Interface** - Health-focused AI assistant
-  - 💬 **Real-time Chat** - Instant AI responses
-  - 🔒 **Secure API Proxy** - Backend handles API keys safely
-  - 🏥 **Health Context** - AI trained for medical assistance
+  -  **Gemini AI Chat Interface** - Health-focused AI assistant
+  -  **Real-time Chat** - Instant AI responses
+  -  **Secure API Proxy** - Backend handles API keys safely
+  -  **Health Context** - AI trained for medical assistance
 - **Usage:**
   ```bash
   npm run dev:medbot    # Start Vite dev server
@@ -83,10 +83,10 @@ medbot/
 ### Backend Proxy Server (`server.js`)
 - **Purpose:** Secure API key handling for Gemini AI
 - **Features:**
-  - 🔒 **API Key Protection** - Never exposed to frontend
-  - 🌐 **CORS Enabled** - Allows frontend communication
-  - 📡 **Health Endpoints** - Server status monitoring
-  - ⚡ **Error Handling** - Robust error management
+  -  **API Key Protection** - Never exposed to frontend
+  -  **CORS Enabled** - Allows frontend communication
+  -  **Health Endpoints** - Server status monitoring
+  -  **Error Handling** - Robust error management
 
 ### Frontend Integration
 - **ChatInterface Component** - AI-powered health assistant
@@ -105,7 +105,7 @@ GEMINI_API_KEY=your_actual_api_key_here
 npm run dev:server
 ```
 
-## 📦 Shared Assets (`shared/`)
+##  Shared Assets (`shared/`)
 
 ### Models (`shared/models/`)
 - FBX animation files shared between Three.js viewers
@@ -115,7 +115,7 @@ npm run dev:server
 - Legacy Three.js and FBXLoader files (for manual use)
 - Not used in the current CDN/module-based setup
 
-## 📚 Documentation (`docs/`)
+##  Documentation (`docs/`)
 
 - `SCRIPTS_OVERVIEW.md` - Detailed script documentation
 - `FOLDER_STRUCTURE_PLAN.md` - Structure planning document
@@ -123,7 +123,7 @@ npm run dev:server
 - MEDBOT application documentation
 - Project planning and todo files
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Initial Setup:
 ```bash
@@ -162,7 +162,7 @@ npm run build:medbot
 threejs-viewer-cdn/index.html
 ```
 
-## 🔧 Development
+##  Development
 
 ### Centralized NPM Management:
 - **Root `package.json`** - Manages Three.js viewer and Gemini server dependencies
@@ -177,14 +177,14 @@ threejs-viewer-cdn/index.html
 - `npm run build` - Build all applications
 - `npm run install:all` - Install all dependencies
 
-## 🤖 AI Features
+##  AI Features
 
 ### Health Assistant Capabilities:
-- 💊 **Medical Information** - General health knowledge
-- 🏃‍♂️ **Exercise Advice** - Fitness recommendations
-- 🥗 **Nutrition Guidance** - Dietary suggestions
-- 🧠 **Mental Health Support** - Wellness tips
-- ⚠️ **Safety Reminders** - Always encourages professional consultation
+-  **Medical Information** - General health knowledge
+-  **Exercise Advice** - Fitness recommendations
+-  **Nutrition Guidance** - Dietary suggestions
+-  **Mental Health Support** - Wellness tips
+-  **Safety Reminders** - Always encourages professional consultation
 
 ### Integration Points:
 - **ChatInterface** - Main AI chat component
@@ -192,7 +192,7 @@ threejs-viewer-cdn/index.html
 - **Exercise Viewer** - AI guidance for 3D exercises
 - **Profile Management** - Personalized AI recommendations
 
-## 📝 Notes
+##  Notes
 
 - All Three.js viewers share the same FBX models from `shared/models/`
 - Import paths have been updated to work with the new structure
@@ -202,7 +202,7 @@ threejs-viewer-cdn/index.html
 - Centralized npm management allows easy dependency updates and script execution
 - Gemini AI integration provides intelligent health assistance
 
-## 🤝 Contributing
+##  Contributing
 
 - Each application has its own development workflow
 - Shared assets are maintained in the `shared/` folder
