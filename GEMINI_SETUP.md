@@ -1,8 +1,8 @@
-# 🤖 Gemini AI Chatbot Setup
+# Gemini AI Chatbot Setup
 
 This project includes a secure backend proxy for the Google Gemini AI API to handle API keys safely.
 
-## 🚀 Quick Setup
+## Quick Setup
 
 ### 1. Get Your Gemini API Key
 1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey)
@@ -40,7 +40,7 @@ Open `gemini-chat.html` in your browser or access it via:
 http://localhost:3000/gemini-chat.html
 ```
 
-## 🔧 How It Works
+## How It Works
 
 ### Backend Proxy (`server.js`)
 - **Secure API Key Handling**: API key is stored server-side in `.env`
@@ -72,14 +72,14 @@ Check server status:
 fetch('http://localhost:3001/api/health');
 ```
 
-## 🔒 Security Features
+## Security Features
 
 - ✅ **API Key Protection**: Never exposed to frontend
 - ✅ **Environment Variables**: Secure configuration management
 - ✅ **CORS Configuration**: Controlled cross-origin requests
 - ✅ **Error Handling**: No sensitive data in error messages
 
-## 🎯 Integration with Existing Apps
+## Integration with Existing Apps
 
 ### Three.js Viewer Integration
 You can integrate the Gemini chatbot into your Three.js viewer:
@@ -119,7 +119,7 @@ const askAI = async (question) => {
 };
 ```
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues:
 
@@ -149,7 +149,7 @@ DEBUG=true
 | `PORT` | Server port | 3001 |
 | `DEBUG` | Enable debug logging | false |
 
-## 🔄 Development Workflow
+## Development Workflow
 
 1. **Start Development**: `npm run dev` (starts all services)
 2. **Test Chatbot**: Open `gemini-chat.html`
