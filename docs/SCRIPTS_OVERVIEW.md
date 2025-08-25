@@ -4,7 +4,7 @@ This document describes the purpose of each main script in the project, includin
 
 ---
 
-## 📦 Three.js FBX Viewer Scripts
+## Three.js FBX Viewer Scripts
 
 ### `src/index.js`
 - **Purpose:**
@@ -35,7 +35,7 @@ This document describes the purpose of each main script in the project, includin
 
 ---
 
-## 🩺 MEDBOT React/TypeScript Application Scripts
+## MEDBOT React/TypeScript Application Scripts
 
 ### `app.js`
 - **Purpose:**
@@ -53,7 +53,7 @@ This document describes the purpose of each main script in the project, includin
 
 ---
 
-## 🗂️ Loader and Library Scripts
+##  Loader and Library Scripts
 
 ### `libs/three.module.js`
 - **Purpose:**
@@ -67,7 +67,7 @@ This document describes the purpose of each main script in the project, includin
 
 ---
 
-## 📝 Other Markdown and Config Files
+## Other Markdown and Config Files
 
 ### `README.md`
 - **Purpose:**
@@ -79,7 +79,7 @@ This document describes the purpose of each main script in the project, includin
 
 ---
 
-## 🔄 **Summary**
+## **Summary**
 - The Three.js FBX viewer is implemented in `src/index.js` and is the only script needed for both Webpack and Vite builds.
 - All other scripts in `src/` are either legacy, experimental, or part of the separate MEDBOT React/TypeScript application.
 - Local library/loader files are not needed with the current CDN/module-based setup. 
