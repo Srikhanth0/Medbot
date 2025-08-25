@@ -24,12 +24,12 @@ That's it! This will start:
  **RAG Pipeline** - Semantic exercise search  
  **Health Dashboard** - Real-time metrics and analytics  
 
-## 🔧 Prerequisites
+##  Prerequisites
 
 - **Node.js 16+**
 - **npm or yarn**
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 
 
@@ -39,7 +39,7 @@ That's it! This will start:
 
 
 
-## 📁 Clean Project Structure
+##  Clean Project Structure
 
 ```
 Medbot/
