@@ -78,7 +78,7 @@ medbot/
   npm run build:medbot  # Build for production
   ```
 
-## 🤖 Gemini AI Integration
+## Gemini AI Integration
 
 ### Backend Proxy Server (`server.js`)
 - **Purpose:** Secure API key handling for Gemini AI
