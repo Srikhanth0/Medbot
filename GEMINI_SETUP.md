@@ -141,7 +141,7 @@ Add this to your `.env` for detailed logging:
 DEBUG=true
 ```
 
-## 📝 Environment Variables
+##  Environment Variables
 
 | Variable | Description | Default |
 |----------|-------------|---------|
@@ -156,6 +156,6 @@ DEBUG=true
 3. **Integrate**: Add AI features to your existing apps
 4. **Deploy**: Ensure `.env` is properly configured in production
 
-## 🎉 Ready to Use!
+##  Ready to Use!
 
 Your Gemini AI chatbot is now ready! The backend proxy keeps your API key secure while providing a clean interface for AI interactions. 
