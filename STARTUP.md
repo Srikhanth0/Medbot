@@ -1,6 +1,6 @@
 # MedBot Startup Guide
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -13,16 +13,16 @@ npm run dev
 ```
 
 That's it! This will start:
-- ⚛️ **React App** (http://localhost:5173)
-- 🤖 **AI Server** (http://localhost:3001)
+-  **React App** (http://localhost:5173)
+-  **AI Server** (http://localhost:3001)
 
-## 📋 What's Included
+##  What's Included
 
-✅ **AI Health Assistant** - Powered by Gemini API  
-✅ **3D Character Animations** - 6 exercise animations  
+ **AI Health Assistant** - Powered by Gemini API  
+ **3D Character Animations** - 6 exercise animations  
   
-✅ **RAG Pipeline** - Semantic exercise search  
-✅ **Health Dashboard** - Real-time metrics and analytics  
+ **RAG Pipeline** - Semantic exercise search  
+ **Health Dashboard** - Real-time metrics and analytics  
 
 ## 🔧 Prerequisites
 
