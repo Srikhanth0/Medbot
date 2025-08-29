@@ -3,9 +3,6 @@
 MedBot is an intelligent health monitoring application that combines AI-powered chat capabilities with 3D character animations and medical data analysis.
 
 
-[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/Srikhanth0/Medbot-AI-Health-Assistant/Demo.mp4)
-
-
 
 ## Features
 
